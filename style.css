@@ -29,7 +29,7 @@ body {
 
 .sidebar nav a {
   display: block;
-  color: #bbb;
+  color: green;
   text-decoration: none;
   padding: 10px 0;
   transition: 0.3s;
@@ -109,5 +109,6 @@ body {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+
 
 

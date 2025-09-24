@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  background:skyblue;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background:brown;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1db954;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+  color: #fff;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar input {
+  width: 60%;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.topbar button {
+  background: #8aaa08;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/* Releases Section */
+.releases-section h1 {
+  margin-bottom: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  background: #282828;
+  color: #bbb;
+  border: none;
+  padding: 8px 16px;
+  /* margin-right: 10px; */
+  border-radius: 20px;
+}
+
+.filters .active,
+.filters button:hover {
+  background: #1db954;
+  color: #fff;
+}
+
+/* Grid */
+.releases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 150px;
+}
+
+.release-item {
+  background:rgb(195, 179, 6);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.release-item img {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
